@@ -66,10 +66,11 @@ inquirer.prompt([
         validate: (value)=>{if(value){return true} else {return 'I need a value to continue'}},
     },
 ])
-.then((data) => {
-    generateMarkdown(data)
+.then((response) => {
+    generateMarkdown(response)
 })
 }
+
 
 // Function call to initialize app
 init();
