@@ -6,6 +6,8 @@
   
   In this project, the students were tasked with creating a ReadMe Generator using Inquirer and Node.
   
+  
+  
   ## Table of Contents 
   
   * [Installation](#installation)
@@ -31,6 +33,8 @@
   ## Usage
   
   Run the following command in the root directory and answer the questions that are prompted; node index.js
+
+  Recording of usage can be found here.
   
   ## License
     
