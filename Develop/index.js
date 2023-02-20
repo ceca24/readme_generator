@@ -48,7 +48,7 @@ const questions = [
     {
         type : 'list',
         name : 'license',
-        message : 'Please select a license.',
+        message : 'Please select license used.',
         choices : ['MIT', 'Apache', 'GPL', 'BSD', 'None'],
         validate: (value)=>{if(value){return true} else {return 'I need a value to continue'}},
     },
@@ -67,10 +67,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((data)=>{
+        console.log(data);
+        writeToFile("README.md", data);
+    })
+};
 
 // Function call to initialize app
 init();
