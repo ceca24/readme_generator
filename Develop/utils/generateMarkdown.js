@@ -1,4 +1,4 @@
-const fs = require("fs");
+const {writeFileSync} = require("fs");
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  writeFileSync(`./data/README.md`, `# ${data.title} 
 
   ${renderLicenseBadge(data.license)}
 
@@ -84,7 +84,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}]().`;
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}]().`);
 };
 
 module.exports = generateMarkdown;
