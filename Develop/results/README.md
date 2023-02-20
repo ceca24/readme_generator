@@ -1,10 +1,10 @@
-# d
+# f
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
   
-  d
+  f
   
   ## Table of Contents 
   
@@ -25,12 +25,12 @@
   To install necessary dependencies, run the following command:
   
   ```
-  d
+  f
   ```
   
   ## Usage
   
-  d
+  f
   
   ## License
     
@@ -38,16 +38,16 @@
   
   ## Contributing
   
-  d
+  f
   
   ## Tests
   
   To run tests, run the following command:
   
   ```
-  d
+  f
   ```
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at [d]().
+  If you have any questions about the repo, open an issue or contact me directly at f. You can find more of my work at [f]().
