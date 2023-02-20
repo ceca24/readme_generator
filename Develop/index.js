@@ -67,8 +67,8 @@ inquirer.prompt([
         validate: (value)=>{if(value){return true} else {return 'I need a value to continue'}},
     },
 ])
-.then((response) => {
-    generateMarkdown(response)
+.then((data) => {
+    generateMarkdown(data)
 })
 }
 
