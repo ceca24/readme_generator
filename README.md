@@ -55,4 +55,4 @@
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at castillocesar24@hotmail.com. You can find more of my work at [github.com/ceca24]().
+  If you have any questions about the repo, open an issue or contact me directly at castillocesar24@hotmail.com. You can find more of my work at [github.com/ceca24].
